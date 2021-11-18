@@ -1,0 +1,10 @@
+{
+    "root": {
+        "title": "Dictator"
+    },
+    "prologue": {
+        "parent": "root",
+        "background": "foo.png",
+        
+    }
+}
