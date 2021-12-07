@@ -1,10 +1,6 @@
 {
     "root": {
-        "title": "Dictator"
+        "title": "Dictator",
+        "background": "../img/dictator_title.png"
     },
-    "prologue": {
-        "parent": "root",
-        "background": "foo.png",
-        
-    }
 }
