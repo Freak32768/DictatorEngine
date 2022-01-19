@@ -1,6 +1,11 @@
 {
     "root": {
-        "title": "Dictator",
         "background": "../img/dictator_title.png"
+        "texts": ["aa","bb","cc"],
+        "next": "second"
     },
+    "second": {
+        "background": "../img/dictator_title.png"
+    }
 }
+

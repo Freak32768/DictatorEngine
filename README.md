@@ -1,9 +1,8 @@
-# dictator_engine
+# dictator_engine - a simple adventure game editor
 ----
 # Intro
-    - dictator_engine is a simple adventure game.
-    - This software is now on developing (doesn't work yet). Please be careful.
+dictator engine is a simple adventure game editor.
 # LICENSE
-    - dictator_engine is distributed under Apache-2.0. Please see LICENSE.
-    - This software uses some external libraries. Please see COPYRIGHT_NOTICE.
+dictator engine is distributed under Apache-2.0. Please see LICENSE.
+This software uses some external libraries. Please see COPYRIGHT\_NOTICE.
     
