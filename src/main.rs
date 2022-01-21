@@ -25,7 +25,11 @@ static WINDOW_WIDTH: u32 = 800;
 static WINDOW_HEIGHT: u32 = 600;
 
 pub fn main() {
-    let _args: Vec<String> = env::args().collect();
+    let args: Vec<String> = env::args().collect();
+    if args.len() != 2 {
+        println!("Error: wrong arguments");
+        println!("$ dictator_engine [json file]");
+    }
     let ipam = Path::new("./dictator_example/ipam.ttf");
     let sdl_context = sdl2::init().unwrap();
     let video_subsystem = sdl_context.video().unwrap();

@@ -10,14 +10,14 @@
   - This software uses some external libraries. Please see =COPYRIGHT_NOTICE=.
 * How to build
   You can build with a terminal emulator. Type the following commands.
-  - $ cd /directory/to/install
-  - $ git clone https://github.com/Freak32768/dictator_engine.git
-  - $ cd =dictator_engine=
-  - $ cargo build --release
+  - =$ cd /directory/to/install=
+  - =$ git clone https://github.com/Freak32768/dictator_engine.git=
+  - =$ cd =dictator_engine=
+  - =$ cargo build --release=
   The executable file ="dictator_engine"= is in =/path/to/dictator_engine/target/release= .
   **NOTE:** You need the following softwares/libraries:
-  - cargo
-  - SDL2
+  - =cargo=
+  - =SDL2=
   - =SDL2_image=
   - =SDL2_mixer=
   - =SDL2_ttf=

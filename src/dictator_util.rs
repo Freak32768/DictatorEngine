@@ -25,14 +25,6 @@ use std::fs::File;
 use std::io::prelude::*;
 use std::path::Path;
 use std::time::Duration;
-/*
-#[derive(Serialize, Deserialize, Debug)]
-pub struct Scene {
-    picture_path: String,
-    texts: Vec<String>,
-    next: String,
-}
-*/
 
 pub fn new_scene(filepath: &Path) -> Value {
     let mut file = match File::open(filepath) {
